@@ -52,6 +52,7 @@ MODEL:
 TEST:
   ENABLE: True
   DATASET: kinetics
+  CHECKPOINT_FILE_PATH: /kaggle/input/input-data/SLOWFAST_8x8_R50.pkl
   BATCH_SIZE: 64
 DATA_LOADER:
   NUM_WORKERS: 8
